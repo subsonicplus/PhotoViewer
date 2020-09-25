@@ -8,5 +8,4 @@
   * Pillow 
 
 ## License
-
-Free haha 😆!
+  Free ha-ha 😆!
