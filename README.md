@@ -6,3 +6,7 @@
 ## Required libraries
   * Eel
   * Pillow 
+
+## License
+
+Free haha 😆!
