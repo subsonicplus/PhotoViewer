@@ -1,0 +1,104 @@
+* 
+{
+	padding : 0;
+	margin : 0;
+	box-sizing : border-box; 
+}
+html, body
+{
+	background-color : #241B22;
+}
+button 
+{
+	outline : none!important;
+}
+
+#main 
+{
+	position : fixed;
+	top : 0;
+	left : 0;
+	height : 100%;
+	width : 100%;
+	display : flex;
+}
+.sub-main
+{
+	/* border : 2px solid #000; */
+	position : relative;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+}
+
+.center
+{
+	width : 100%;
+	padding : 15px 15px;
+	overflow-y : auto;
+	overflow-x : hidden;
+}
+.center > #image
+{
+	max-height : 100%;
+	max-width : 100%;
+	transition : 0.2s;
+}
+.center::-webkit-scrollbar 
+{
+	width : 5px;
+}
+.center::-webkit-scrollbar-track 
+{
+	background-color : none;
+}
+.center::-webkit-scrollbar-thumb 
+{
+	background-color : #FF6D5A;
+}
+
+.fa-chevron-left, .fa-chevron-right
+{
+	padding : 50px 20px;
+	height : 50%;
+	background-color : rgba(0, 0, 0, .6);
+	color : #FF6D5A;
+	border : none;
+	transition : 0.05s;
+}
+.fa-undo, .fa-repeat
+{
+	position : absolute;
+	bottom : 0;
+	left : 0;
+	width : 100%;
+	padding : 20px 0;
+	background-color : rgba(0, 0, 0, .6);
+	color : #FF6D5A;
+	border : none;
+	transition : 0.05s;
+}
+.fa-camera, .fa-github
+{
+	position : absolute;
+	top : 0;
+	left : 0;
+	width : 100%;
+	padding : 20px 0;
+	background-color : rgba(0, 0, 0, .6);
+	color : #FF6D5A;
+	border : none;
+	transition : 0.05s;
+}
+.fa-github
+{
+	border : none;
+	padding : 15px 0;
+	color : #fff;
+}
+.fa-chevron-left:hover, .fa-chevron-right:hover, 
+.fa-undo:hover, .fa-repeat:hover
+{
+	background-color : #FF6D5A;
+	color : #241B22;
+}
